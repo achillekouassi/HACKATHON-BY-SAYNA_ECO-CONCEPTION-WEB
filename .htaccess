@@ -1,0 +1,11 @@
+# Activer le module de réécriture
+RewriteEngine On
+
+# Réécrire les URL pour supprimer l'extension .php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+# Ajouter une barre oblique finale pour les répertoires
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+[^/])$ $1/ [R=301,L]

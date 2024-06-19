@@ -46,7 +46,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.php" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="index" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img src="images/logo.webp" alt="" title="eranove-academy" width="25%">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -54,28 +54,28 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link active">Accueil</a>
+                <a href="index" class="nav-item nav-link active">Accueil</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Qui Sommes nous?</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="team.php" class="dropdown-item">Nos Valeurs</a>
-                        <a href="testimonial.php" class="dropdown-item">Notre Promesse</a>
+                        <a href="team" class="dropdown-item">Nos Valeurs</a>
+                        <a href="testimonial" class="dropdown-item">Notre Promesse</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
                     <a href="courses.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Formations</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="courses.php" class="dropdown-item">Digital</a>
-                        <a href="courses.php" class="dropdown-item">Energie</a>
-                        <a href="courses.php" class="dropdown-item">Génie Industriel</a>
-                        <a href="courses.php" class="dropdown-item">Eaux et Environnement</a>
-                        <a href="courses.php" class="dropdown-item">Management</a>
+                        <a href="courses" class="dropdown-item">Digital</a>
+                        <a href="courses" class="dropdown-item">Energie</a>
+                        <a href="courses" class="dropdown-item">Génie Industriel</a>
+                        <a href="courses" class="dropdown-item">Eaux et Environnement</a>
+                        <a href="courses" class="dropdown-item">Management</a>
                     </div>
                 </div>
-                <a href="service.php" class="nav-item nav-link">Services</a>
-                <a href="actualite.php" class="nav-item nav-link">Actualités</a>
+                <a href="service" class="nav-item nav-link">Services</a>
+                <a href="actualite" class="nav-item nav-link">Actualités</a>
             </div>
-            <a href="admin/index.php" class="btn btn-sucess py-4 px-lg-5 d-none d-lg-block">Espace Academy</a>
+            <a href="admin/index" class="btn btn-sucess py-4 px-lg-5 d-none d-lg-block">Espace Academy</a>
         </div>
     </nav>
     <!-- Navbar End -->
